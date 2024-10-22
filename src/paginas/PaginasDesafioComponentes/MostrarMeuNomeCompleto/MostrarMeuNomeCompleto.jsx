@@ -1,7 +1,7 @@
 const MostrarMeuNomeCompleto=({nome,sobre})=>{
     return(
         <>
-        <h3>meu nome complesto é: </h3>{nome} {sobre}
+        <h3>meu nome completo é: </h3>{nome} {sobre}
         </>
     )
 }
