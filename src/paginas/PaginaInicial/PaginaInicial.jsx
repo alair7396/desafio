@@ -27,6 +27,11 @@ const PaginaInicial = () => {
       >
         Lista de Tarefas
       </BotaoCustomizado>
+      <BotaoCustomizado
+        aoClicar={() => navigate('/desafio')}
+      >
+        Desafio
+      </BotaoCustomizado>
     </Principal>
   );
 };
