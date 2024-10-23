@@ -15,7 +15,7 @@ const produto = {
 const numeros = [1, 8, 13, 16, 21, 24, 29, 32, 37, 40, 45, 48];
 const PaginaDesafioComponentes = () => {
     return (
-        <Principal>
+        <Principal titulo="Desafio" voltarPara="/">
             <MostrarSoma />
             <MostrarSubtracao subtracao={10 - 2} />
             <MostrarDivisao divisao={50 / 10} />
