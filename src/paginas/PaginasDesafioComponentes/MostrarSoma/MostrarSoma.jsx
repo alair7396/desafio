@@ -18,9 +18,9 @@ const MostrarSoma=()=>{
 
     return(
         <>
-        <input type="text" value={use} onChange={input} />
-        <input type="text" value={use2} onChange={input2}/>
-        <button onClick={resultado}>calcular</button>
+        <input type="text" value={use} onChange={input} placeholder="Digite um número"/>
+        <input type="text" value={use2} onChange={input2} placeholder="Digite um número"/>
+        <button onClick={resultado}>Somar</button>
         
         <h1>{use3}</h1>
         </>
